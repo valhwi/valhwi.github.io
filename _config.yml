@@ -23,13 +23,13 @@ repository               : "valhwi/valhwi.github.io/"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Valerie"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Not of the world, just in it."
+  location         : "Cosmos (14°35′N 121°00′E)"
+  employer         : "Inside the lab"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "https://mail.google.com/mail/u/valerie.gamit@gmail.com" 
 
   # Academic websites
   academia         : # URL
