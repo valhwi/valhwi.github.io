@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Valerie"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "Not of the world, just in it."
-  location         : "Cosmos (14°35′N 121°00′E)"
-  employer         : "Inside the lab"
+  location         : "Somewhere"
+  employer         : "Lab"
   uri              : # URL
   email            : "mailto:valerie.gamit@gmail.com" 
 
