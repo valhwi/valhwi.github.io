@@ -96,6 +96,9 @@
       {% if author.bluesky %}
         <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
       {% endif %}
+      {% if author.chess_com %}
+        <li><a href="https://www.chess.com/member/{{ author.chess_com }}"><i class="fas fa-chess icon-pad-right" aria-hidden="true"></i>Chess.com</a></li>
+      {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-f icon-pad-right" aria-hidden="true"></i>Facebook</a></li>
       {% endif %}
@@ -164,9 +167,7 @@
       {% endif %}
       {% if author.youtube_music %}
         <li><a href="https://music.youtube.com/channel/{{ author.youtube_music }}"><i class="fas fa-music icon-pad-right" aria-hidden="true"></i>YouTube Music</a></li>
-{% endif %}
-
-      
+      {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
