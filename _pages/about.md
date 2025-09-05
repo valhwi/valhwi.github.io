@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "Hellooo!"
+title: "You weren’t looking for this, but welcome anyway!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+##This sentence is only here for balance.
+<br>
 <div style="display: flex; justify-content: center;">
   <iframe width="560" height="315" 
           src="https://www.youtube.com/embed/wccRif2DaGs?si=3A9m4vGoqTt7PypL" 
@@ -14,7 +15,7 @@ redirect_from:
           frameborder="0" 
           allowfullscreen></iframe>
 </div>
-
+<br>
 <div style="display: flex; justify-content: center; gap: 10px;">
   <iframe src="https://free.timeanddate.com/clock/i9stvqo9/n16/fcfff/tc000/ftb/pa8/tt0/th1/ta1/tb4" 
           frameborder="0" 
