@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-##This sentence is only here for balance.
 <br>
 <div style="display: flex; justify-content: center;">
   <iframe width="560" height="315" 
