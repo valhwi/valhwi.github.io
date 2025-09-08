@@ -1,11 +1,12 @@
 ---
 permalink: /
-title: "You weren’t looking for this, but welcome anyway!"
+title: ":>"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+## You weren’t looking for this, but welcome anyway!
 <br>
 <div style="display: flex; justify-content: center;">
   <iframe width="560" height="315" 
