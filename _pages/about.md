@@ -5,37 +5,47 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p style="text-align:center; font-size:24px; font-weight:bold;">
-  <span id="greeting-display">Welcome!</span>
-</p>
+
+<div style="text-align:center; margin-top:50px;">
+  <span id="greeting-display" style="display:inline-block; font-size:36px; font-weight:bold; transition: transform 1s;">
+    Loading...
+  </span>
+</div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  var display = document.getElementById("greeting-display");
-  if (!display) {
-    console.error("No element found with id 'greeting-display'");
-    return;
-  }
+  document.addEventListener("DOMContentLoaded", function() {
+    // Load greetings from Jekyll _data folder
+    const greetings = {{ site.data.hello | jsonify }};
+    
+    // Function to pick a random greeting
+    function randomGreeting() {
+      const g = greetings[Math.floor(Math.random() * greetings.length)];
+      return g.hello;
+    }
 
-  // Fetch greetings from assets/hello.json
-  fetch('/assets/hello.json')
-    .then(response => response.json())
-    .then(data => {
-      // Extract 'hello' field from each JSON object
-      var greetings = data.map(entry => entry.hello);
-      var currentIndex = 0;
+    const greetingDisplay = document.getElementById("greeting-display");
 
-      function rotateGreeting() {
-        display.innerText = greetings[currentIndex];
-        currentIndex = (currentIndex + 1) % greetings.length;
-      }
+    // Function to update greeting and apply rotation/movement
+    function updateGreeting() {
+      const text = randomGreeting();
+      greetingDisplay.textContent = text;
 
-      rotateGreeting(); // show first greeting immediately
-      setInterval(rotateGreeting, 1000); // rotate every second
-    })
-    .catch(err => console.error("Error loading JSON:", err));
-});
+      // Random rotation between -30deg and 30deg
+      const rotation = Math.random() * 60 - 30;
+      // Random horizontal movement between -50px and 50px
+      const translateX = Math.random() * 100 - 50;
+      // Random vertical movement between -20px and 20px
+      const translateY = Math.random() * 40 - 20;
+
+      greetingDisplay.style.transform = `translate(${translateX}px, ${translateY}px) rotate(${rotation}deg)`;
+    }
+
+    // Update greeting every 2 seconds
+    updateGreeting(); // Initial call
+    setInterval(updateGreeting, 2000);
+  });
 </script>
+
 
 <!-- YouTube Video -->
 <div style="display: flex; justify-content: center;">
