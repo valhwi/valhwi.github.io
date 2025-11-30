@@ -8,7 +8,8 @@ redirect_from:
 ---
 ## <br>
 <div style="text-align:center;">
-  <h2>Welcome!!!</h2>
+  <div id="greeting-display" style="text-align:center; font-size:24px; margin-top:20px;">
+  Welcome!
   <ul style="list-style:none; padding:0;">
     {% for item in site.data.hello %}
       <li>
@@ -16,6 +17,7 @@ redirect_from:
       </li>
     {% endfor %}
   </ul>
+</div>
 </div>
 
 <br>
