@@ -8,7 +8,7 @@ redirect_from:
 ---
 ## <br>
 <div style="text-align:center;">
-  <h2>Greetings Around the World</h2>
+  <h2>Welcome!!!</h2>
   <ul style="list-style:none; padding:0;">
     {% for item in site.data.hello %}
       <li>
