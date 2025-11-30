@@ -1,5 +1,6 @@
 ---
 permalink: /
+title: Valerie
 author_profile: true
 redirect_from: 
   - /about/
@@ -7,22 +8,14 @@ redirect_from:
 ---
 
 <!-- Rotating Greetings -->
-<div style="text-align:center;">
-  <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold; transition: opacity 0.5s;">
-    Welcome!
-  </div>
-</div>
+<span id="greeting-display" style="font-size:24px; font-weight:bold;">Welcome!</span>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // Build greetings array from Jekyll data
+  // Build greetings array from your JSON
   const greetings = [
     {% for item in site.data.hello %}
-      {
-        language: "{{ item.language | escape }}",
-        country: "{{ item.country | escape }}",
-        hello: "{{ item.hello | escape }}"
-      }{% unless forloop.last %},{% endunless %}
+      "{{ item.hello | escape }} ({{ item.language | escape }}, {{ item.country | escape }})"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
@@ -30,20 +23,15 @@ document.addEventListener("DOMContentLoaded", function() {
   const display = document.getElementById("greeting-display");
 
   function showNextGreeting() {
-    // Fade out
-    display.style.opacity = 0;
-    setTimeout(() => {
-      const item = greetings[current];
-      display.innerHTML = `<strong>${item.hello} (${item.language}, ${item.country})</strong>`;
-      display.style.opacity = 1; // Fade in
-      current = (current + 1) % greetings.length;
-    }, 250); // half of the transition duration
+    display.textContent = greetings[current];
+    current = (current + 1) % greetings.length;
   }
 
   showNextGreeting();
-  setInterval(showNextGreeting, 1000); // 1 second interval
+  setInterval(showNextGreeting, 1000); // changes every second
 });
 </script>
+
 
 <br>
 
@@ -62,11 +50,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <!-- Clocks -->
 <div style="display: flex; justify-content: center; gap: 10px;">
   <iframe src="https://free.timeanddate.com/clock/i9stvqo9/n16/fcfff/tc000/ftb/pa8/tt0/th1/ta1/tb4" 
-          frameborder="0" 
-          width="231" 
-          height="50">
-  </iframe>
-  <iframe src="https://free.timeanddate.com/clock/i9stvqo9/n145/fcfff/tc000/ftb/pa8/tt0/th1/ta1/tb4" 
           frameborder="0" 
           width="231" 
           height="50">
