@@ -1,12 +1,23 @@
 ---
 permalink: /
-title: ":>"
+title: "Valerie"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-## You weren’t looking for this, but welcome anyway!
+## <br>
+<div style="text-align:center;">
+  <h2>Greetings Around the World</h2>
+  <ul style="list-style:none; padding:0;">
+    {% for item in site.data.hello %}
+      <li>
+        <strong>{{ item.language }} ({{ item.country }}):</strong> {{ item.hello }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
 <br>
 <div style="display: flex; justify-content: center;">
   <iframe width="560" height="315" 
