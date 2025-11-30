@@ -1,0 +1,752 @@
+[
+  {
+    "language": "English",
+    "hello": "Welcome!",
+    "tag": "en",
+    "country": "United Kingdom"
+  },
+  {
+    "language": "Afrikaans",
+    "hello": "hallo",
+    "tag": "af",
+    "country": "South Africa"
+  },
+  {
+    "language": "Albanian",
+    "hello": "Përshëndetje",
+    "tag": "sq",
+    "country": "Albania"
+  },
+  {
+    "language": "Amharic",
+    "hello": "ሰላም",
+    "tag": "am",
+    "country": "Ethiopia"
+  },
+  {
+    "language": "Arabic",
+    "hello": "مرحبا",
+    "tag": "ar",
+    "country": "Saudi Arabia"
+  },
+  {
+    "language": "Armenian",
+    "hello": "Բարեւ",
+    "tag": "hy",
+    "country": "Armenia"
+  },
+  {
+    "language": "Assamese",
+    "hello": "নমস্কাৰ",
+    "tag": "as",
+    "country": "India"
+  },
+  {
+    "language": "Aymara",
+    "hello": "Kamisaki",
+    "tag": "aym",
+    "country": "Bolivia"
+  },
+  {
+    "language": "Azerbaijani",
+    "hello": "Salam",
+    "tag": "az",
+    "country": "Azerbaijan"
+  },
+  {
+    "language": "Basque",
+    "hello": "Kaixo",
+    "tag": "eu",
+    "country": "Spain"
+  },
+  {
+    "language": "Belarusian",
+    "hello": "добры дзень",
+    "tag": "be",
+    "country": "Belarus"
+  },
+  {
+    "language": "Bengali",
+    "hello": "হ্যালো",
+    "tag": "bn",
+    "country": "Bangladesh"
+  },
+  {
+    "language": "Bosnian",
+    "hello": "zdravo",
+    "tag": "bs",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "language": "Breton",
+    "hello": "Demat",
+    "tag": "br",
+    "country": "France"
+  },
+  {
+    "language": "Bulgarian",
+    "hello": "Здравейте",
+    "tag": "bg",
+    "country": "Bulgaria"
+  },
+  {
+    "language": "Catalan",
+    "hello": "Hola",
+    "tag": "ca",
+    "country": "Spain"
+  },
+  {
+    "language": "Cebuano",
+    "hello": "Hello",
+    "tag": "ceb",
+    "country": "Philippines"
+  },
+  {
+    "language": "Cherokee",
+    "hello": "ᎣᏏᏲ",
+    "tag": "chr",
+    "country": "USA"
+  },
+  {
+    "language": "Chichewa",
+    "hello": "Moni",
+    "tag": "ny",
+    "country": "Malawi"
+  },
+  {
+    "language": "Chinese (Simplified)",
+    "hello": "您好",
+    "tag": "zh-Hans",
+    "country": "China"
+  },
+  {
+    "language": "Chinese (Traditional)",
+    "hello": "您好",
+    "tag": "zh-Hant",
+    "country": "Taiwan"
+  },
+  {
+    "language": "Corsican",
+    "hello": "Bonghjornu",
+    "tag": "co",
+    "country": "France"
+  },
+  {
+    "language": "Croatian",
+    "hello": "zdravo",
+    "tag": "hr",
+    "country": "Croatia"
+  },
+  {
+    "language": "Czech",
+    "hello": "Ahoj",
+    "tag": "cs",
+    "country": "Czech Republic"
+  },
+  {
+    "language": "Danish",
+    "hello": "Hej",
+    "tag": "da",
+    "country": "Denmark"
+  },
+  {
+    "language": "Dutch",
+    "hello": "Hallo",
+    "tag": "nl",
+    "country": "Netherlands"
+  },
+  {
+    "language": "Dzongkha",
+    "hello": "Kuzu zangpo la",
+    "tag": "dz",
+    "country": "Bhutan"
+  },
+  {
+    "language": "English",
+    "hello": "Hello",
+    "tag": "en",
+    "country": "United Kingdom"
+  },
+  {
+    "language": "Esperanto",
+    "hello": "Saluton",
+    "tag": "eo",
+    "country": "Worldwide"
+  },
+  {
+    "language": "Estonian",
+    "hello": "Tere",
+    "tag": "et",
+    "country": "Estonia"
+  },
+  {
+    "language": "Faroese",
+    "hello": "Hallo",
+    "tag": "fo",
+    "country": "Faroe Islands"
+  },
+  {
+    "language": "Fijian",
+    "hello": "Bula",
+    "tag": "fj",
+    "country": "Fiji"
+  },
+  {
+    "language": "Filipino",
+    "hello": "Kumusta",
+    "tag": "fil",
+    "country": "Philippines"
+  },
+  {
+    "language": "Finnish",
+    "hello": "Hei",
+    "tag": "fi",
+    "country": "Finland"
+  },
+  {
+    "language": "French",
+    "hello": "Bonjour",
+    "tag": "fr",
+    "country": "France"
+  },
+  {
+    "language": "Frisian",
+    "hello": "Hello",
+    "tag": "fy",
+    "country": "Netherlands"
+  },
+  {
+    "language": "Galician",
+    "hello": "Ola",
+    "tag": "gl",
+    "country": "Spain"
+  },
+  {
+    "language": "Garifuna",
+    "hello": "Buiti binafi",
+    "tag": "cab",
+    "country": "Honduras"
+  },
+  {
+    "language": "Georgian",
+    "hello": "გამარჯობა",
+    "tag": "ka",
+    "country": "Georgia"
+  },
+  {
+    "language": "German",
+    "hello": "Hallo",
+    "tag": "de",
+    "country": "Germany"
+  },
+  {
+    "language": "Greek",
+    "hello": "Γεια σας",
+    "tag": "el",
+    "country": "Greece"
+  },
+  {
+    "language": "Greenlandic",
+    "hello": "Aluu",
+    "tag": "kl",
+    "country": "Greenland"
+  },
+  {
+    "language": "Guarani",
+    "hello": "Mba'éichapa",
+    "tag": "gn",
+    "country": "Paraguay"
+  },
+  {
+    "language": "Gujarati",
+    "hello": "હેલો",
+    "tag": "gu",
+    "country": "India"
+  },
+  {
+    "language": "Haitian Creole",
+    "hello": "Bonjou",
+    "tag": "ht",
+    "country": "Haiti"
+  },
+  {
+    "language": "Hausa",
+    "hello": "Sannu",
+    "tag": "ha",
+    "country": "Nigeria"
+  },
+  {
+    "language": "Hawaiian",
+    "hello": "Alohaʻoe",
+    "tag": "haw",
+    "country": "USA"
+  },
+  {
+    "language": "Hebrew",
+    "hello": "שלום",
+    "tag": "he",
+    "country": "Israel"
+  },
+  {
+    "language": "Hindi",
+    "hello": "नमस्ते",
+    "tag": "hi",
+    "country": "India"
+  },
+  {
+    "language": "Hmong",
+    "hello": "Nyob zoo",
+    "tag": "hmn",
+    "country": "China"
+  },
+  {
+    "language": "Hungarian",
+    "hello": "Helló",
+    "tag": "hu",
+    "country": "Hungary"
+  },
+  {
+    "language": "Icelandic",
+    "hello": "Halló",
+    "tag": "is",
+    "country": "Iceland"
+  },
+  {
+    "language": "Igbo",
+    "hello": "Ndewo",
+    "tag": "ig",
+    "country": "Nigeria"
+  },
+  {
+    "language": "Indonesian",
+    "hello": "Halo",
+    "tag": "id",
+    "country": "Indonesia"
+  },
+  {
+    "language": "Inuktitut",
+    "hello": "ᐊᐃ",
+    "tag": "iu",
+    "country": "Canada"
+  },
+  {
+    "language": "Irish",
+    "hello": "Dia duit",
+    "tag": "ga",
+    "country": "Ireland"
+  },
+  {
+    "language": "Italian",
+    "hello": "Ciao",
+    "tag": "it",
+    "country": "Italy"
+  },
+  {
+    "language": "Japanese",
+    "hello": "こんにちは",
+    "tag": "ja",
+    "country": "Japan"
+  },
+  {
+    "language": "Javanese",
+    "hello": "Hello",
+    "tag": "jv",
+    "country": "Indonesia"
+  },
+  {
+    "language": "Jèrriais",
+    "hello": "Salut",
+    "tag": "nrf",
+    "country": "Jersey"
+  },
+  {
+    "language": "Kannada",
+    "hello": "ಹಲೋ",
+    "tag": "kn",
+    "country": "India"
+  },
+  {
+    "language": "Kazakh",
+    "hello": "Сәлем",
+    "tag": "kk",
+    "country": "Kazakhstan"
+  },
+  {
+    "language": "Khmer",
+    "hello": "ជំរាបសួរ",
+    "tag": "km",
+    "country": "Cambodia"
+  },
+  {
+    "language": "Korean",
+    "hello": "안녕하세요.",
+    "tag": "ko",
+    "country": "South Korea"
+  },
+  {
+    "language": "Kurdish (Kurmanji)",
+    "hello": "Hello",
+    "tag": "ku",
+    "country": "Turkey"
+  },
+  {
+    "language": "Kyrgyz",
+    "hello": "салам",
+    "tag": "ky",
+    "country": "Kyrgyzstan"
+  },
+  {
+    "language": "Lao",
+    "hello": "ສະບາຍດີ",
+    "tag": "lo",
+    "country": "Laos"
+  },
+  {
+    "language": "Latin",
+    "hello": "salve",
+    "tag": "la",
+    "country": "Vatican City"
+  },
+  {
+    "language": "Latvian",
+    "hello": "Labdien!",
+    "tag": "lv",
+    "country": "Latvia"
+  },
+  {
+    "language": "Lithuanian",
+    "hello": "Sveiki",
+    "tag": "lt",
+    "country": "Lithuania"
+  },
+  {
+    "language": "Luxembourgish",
+    "hello": "Moien",
+    "tag": "lb",
+    "country": "Luxembourg"
+  },
+  {
+    "language": "Macedonian",
+    "hello": "Здраво",
+    "tag": "mk",
+    "country": "North Macedonia"
+  },
+  {
+    "language": "Malagasy",
+    "hello": "Hello",
+    "tag": "mg",
+    "country": "Madagascar"
+  },
+  {
+    "language": "Malay",
+    "hello": "Hello",
+    "tag": "ms",
+    "country": "Malaysia"
+  },
+  {
+    "language": "Malayalam",
+    "hello": "ഹലോ",
+    "tag": "ml",
+    "country": "India"
+  },
+  {
+    "language": "Maltese",
+    "hello": "Hello",
+    "tag": "mt",
+    "country": "Malta"
+  },
+  {
+    "language": "Maori",
+    "hello": "Hiha",
+    "tag": "mi",
+    "country": "New Zealand"
+  },
+  {
+    "language": "Marathi",
+    "hello": "हॅलो",
+    "tag": "mr",
+    "country": "India"
+  },
+  {
+    "language": "Mongolian",
+    "hello": "Сайн байна уу",
+    "tag": "mn",
+    "country": "Mongolia"
+  },
+  {
+    "language": "Mossi",
+    "hello": "Ne y windiga",
+    "tag": "mos",
+    "country": "Burkina Faso"
+  },
+  {
+    "language": "Myanmar (Burmese)",
+    "hello": "မင်္ဂလာပါ",
+    "tag": "my",
+    "country": "Myanmar"
+  },
+  {
+    "language": "Navajo",
+    "hello": "Ya'at'eeh",
+    "tag": "nv",
+    "country": "USA"
+  },
+  {
+    "language": "Nepali",
+    "hello": "नमस्ते",
+    "tag": "ne",
+    "country": "Nepal"
+  },
+  {
+    "language": "Norwegian",
+    "hello": "Hallo",
+    "tag": "no",
+    "country": "Norway"
+  },
+  {
+    "language": "Pashto",
+    "hello": "سلام",
+    "tag": "ps",
+    "country": "Afghanistan"
+  },
+  {
+    "language": "Persian",
+    "hello": "سلام",
+    "tag": "fa",
+    "country": "Iran"
+  },
+  {
+    "language": "Polish",
+    "hello": "Cześć",
+    "tag": "pl",
+    "country": "Poland"
+  },
+  {
+    "language": "Portuguese",
+    "hello": "Olá",
+    "tag": "pt",
+    "country": "Portugal"
+  },
+  {
+    "language": "Punjabi",
+    "hello": "ਹੈਲੋ",
+    "tag": "pa",
+    "country": "India"
+  },
+  {
+    "language": "Quechua",
+    "hello": "Allianchu",
+    "tag": "qu",
+    "country": "Peru"
+  },
+  {
+    "language": "Romanian",
+    "hello": "Alo",
+    "tag": "ro",
+    "country": "Romania"
+  },
+  {
+    "language": "Russian",
+    "hello": "привет",
+    "tag": "ru",
+    "country": "Russia"
+  },
+  {
+    "language": "Samoan",
+    "hello": "Talofa",
+    "tag": "sm",
+    "country": "Samoa"
+  },
+  {
+    "language": "Scots Gaelic",
+    "hello": "Hello",
+    "tag": "sco",
+    "country": "Scotland"
+  },
+  {
+    "language": "Serbian",
+    "hello": "Здраво",
+    "tag": "sr",
+    "country": "Serbia"
+  },
+  {
+    "language": "Sesotho",
+    "hello": "Hello",
+    "tag": "st",
+    "country": "Lesotho"
+  },
+  {
+    "language": "Shona",
+    "hello": "Hello",
+    "tag": "sn",
+    "country": "Zimbabwe"
+  },
+  {
+    "language": "Sindhi",
+    "hello": "هيلو",
+    "tag": "sd",
+    "country": "Pakistan"
+  },
+  {
+    "language": "Sinhala",
+    "hello": "හෙලෝ",
+    "tag": "si",
+    "country": "Sri Lanka"
+  },
+  {
+    "language": "Slovak",
+    "hello": "ahoj",
+    "tag": "sk",
+    "country": "Slovakia"
+  },
+  {
+    "language": "Slovenian",
+    "hello": "Pozdravljeni",
+    "tag": "sl",
+    "country": "Slovenia"
+  },
+  {
+    "language": "Somali",
+    "hello": "Hello",
+    "tag": "so",
+    "country": "Somalia"
+  },
+  {
+    "language": "Spanish",
+    "hello": "Hola",
+    "tag": "es",
+    "country": "Spain"
+  },
+  {
+    "language": "Sundanese",
+    "hello": "halo",
+    "tag": "su",
+    "country": "Indonesia"
+  },
+  {
+    "language": "Swahili",
+    "hello": "Sawa",
+    "tag": "sw",
+    "country": "Tanzania"
+  },
+  {
+    "language": "Swedish",
+    "hello": "Hallå",
+    "tag": "sv",
+    "country": "Sweden"
+  },
+  {
+    "language": "Tahitian",
+    "hello": "Ia Orana",
+    "tag": "ty",
+    "country": "French Polynesia"
+  },
+  {
+    "language": "Tajik",
+    "hello": "Салом",
+    "tag": "tg",
+    "country": "Tajikistan"
+  },
+  {
+    "language": "Tamil",
+    "hello": "ஹலோ",
+    "tag": "ta",
+    "country": "India"
+  },
+  {
+    "language": "Telugu",
+    "hello": "హలో",
+    "tag": "te",
+    "country": "India"
+  },
+  {
+    "language": "Thai",
+    "hello": "สวัสดี",
+    "tag": "th",
+    "country": "Thailand"
+  },
+  {
+    "language": "Tibetan",
+    "hello": "Tashi delek",
+    "tag": "bo",
+    "country": "China"
+  },
+  {
+    "language": "Tongan",
+    "hello": "Mālō e lelei",
+    "tag": "to",
+    "country": "Tonga"
+  },
+  {
+    "language": "Tswana",
+    "hello": "Dumela",
+    "tag": "tn",
+    "country": "Botswana"
+  },
+  {
+    "language": "Turkish",
+    "hello": "Merhaba",
+    "tag": "tr",
+    "country": "Turkey"
+  },
+  {
+    "language": "Ukrainian",
+    "hello": "Здрастуйте",
+    "tag": "uk",
+    "country": "Ukraine"
+  },
+  {
+    "language": "Urdu",
+    "hello": "ہیلو",
+    "tag": "ur",
+    "country": "Pakistan"
+  },
+  {
+    "language": "Uzbek",
+    "hello": "Salom",
+    "tag": "uz",
+    "country": "Uzbekistan"
+  },
+  {
+    "language": "Vietnamese",
+    "hello": "Xin chào",
+    "tag": "vi",
+    "country": "Vietnam"
+  },
+  {
+    "language": "Welsh",
+    "hello": "Helo",
+    "tag": "cy",
+    "country": "Wales"
+  },
+  {
+    "language": "Wolof",
+    "hello": "Salaam Aleekum",
+    "tag": "wo",
+    "country": "Senegal"
+  },
+  {
+    "language": "Xhosa",
+    "hello": "Sawubona",
+    "tag": "xh",
+    "country": "South Africa"
+  },
+  {
+    "language": "Yiddish",
+    "hello": "העלא",
+    "tag": "yi",
+    "country": "Ashkenazi Jewish communities"
+  },
+  {
+    "language": "Yoruba",
+    "hello": "Kaabo",
+    "tag": "yo",
+    "country": "Nigeria"
+  },
+  {
+    "language": "Zulu",
+    "hello": "Sawubona",
+    "tag": "zu",
+    "country": "South Africa"
+  }
+]
