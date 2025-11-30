@@ -6,27 +6,37 @@ redirect_from:
   - /about.html
 ---
 <p style="text-align:center; font-size:24px; font-weight:bold;">
-  Hello: <span id="greeting-display">Welcome!</span>
+  <span id="greeting-display">Welcome!</span>
 </p>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // Hardcoded array for testing
-  var greetings = ["Welcome!", "¡Bienvenido!", "Bienvenue!", "Willkommen!", "Benvenuto!"];
-
-  var current = 0;
   var display = document.getElementById("greeting-display");
 
-  function rotateGreeting() {
-    display.innerText = greetings[current];
-    current = (current + 1) % greetings.length;
+  if (!display) {
+    console.error("No element found with id 'greeting-display'");
+    return;
   }
 
-  rotateGreeting(); // show first greeting immediately
-  setInterval(rotateGreeting, 1000); // rotate every 2 seconds
+  // Fetch greetings from JSON
+  fetch('hello.json')
+    .then(response => response.json())
+    .then(data => {
+      // Map the 'hello' field of each entry
+      var greetings = data.map(entry => entry.hello);
+      var current = 0;
+
+      function rotateGreeting() {
+        display.innerText = greetings[current];
+        current = (current + 1) % greetings.length;
+      }
+
+      rotateGreeting(); // show first greeting immediately
+      setInterval(rotateGreeting, 1000); // rotate every second
+    })
+    .catch(err => console.error("Error loading JSON:", err));
 });
 </script>
-
 
 
 <br>
