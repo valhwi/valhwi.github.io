@@ -11,13 +11,17 @@ redirect_from:
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // Build the greetings array from Jekyll data
     var greetings = [
       {% for item in site.data.hello %}
         "{{ item.hello }}" {% unless forloop.last %},{% endunless %}
       {% endfor %}
     ];
 
-    if (greetings.length === 0) return; // safety check
+    // Debug: check if array is correct
+    console.log("Greetings array:", greetings);
+
+    if (greetings.length === 0) return; // stop if no greetings found
 
     var current = 0;
     var display = document.getElementById("greeting-display");
@@ -27,7 +31,10 @@ redirect_from:
       current = (current + 1) % greetings.length;
     }
 
-    rotateGreeting(); // first greeting
+    // Show first greeting immediately
+    rotateGreeting();
+
+    // Rotate every 2 seconds (adjust as needed)
     setInterval(rotateGreeting, 1000);
   });
 </script>
