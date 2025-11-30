@@ -6,38 +6,24 @@ redirect_from:
   - /about.html
 ---
 
-## <br>
-
-<!-- Rotating Greetings -->
-<div style="text-align:center;">
-  <div id="greeting-display" style="font-size:24px; margin-top:20px;">
-    Welcome!
-  </div>
-</div>
+<div id="greeting-display" style="text-align:center; font-size:24px; font-weight:bold;">Welcome!</div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Load greetings from the JSON file
-  const greetings = [
-    {% for item in site.data.hello %}
-      { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ];
-
-  let current = 0;
-  const display = document.getElementById("greeting-display");
-
-  function showNextGreeting() {
-    const item = greetings[current];
-    display.innerHTML = `${item.hello} (${item.language}, ${item.country})`;
-    current = (current + 1) % greetings.length;
-  }
-
-  showNextGreeting();                // show first greeting immediately
-  setInterval(showNextGreeting, 3000);  // rotate every 3 seconds
-});
+fetch('/hello.json') // make sure hello.json is in your website root
+  .then(response => response.json())
+  .then(greetings => {
+    let current = 0;
+    const display = document.getElementById('greeting-display');
+    function showNextGreeting() {
+      const item = greetings[current];
+      display.textContent = `${item.hello} (${item.language}, ${item.country})`;
+      current = (current + 1) % greetings.length;
+    }
+    showNextGreeting();
+    setInterval(showNextGreeting, 1000);
+  })
+  .catch(console.error);
 </script>
-
 
 
 
