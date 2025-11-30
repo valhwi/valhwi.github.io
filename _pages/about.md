@@ -9,14 +9,14 @@ redirect_from:
 
 <!-- Rotating Greetings -->
 <div style="text-align:center;">
-  <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold;">
+  <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold; transition: opacity 0.5s;">
     Welcome!
   </div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // Build greetings array safely
+  // Build greetings array from Jekyll data
   const greetings = [
     {% for item in site.data.hello %}
       {
@@ -31,16 +31,20 @@ document.addEventListener("DOMContentLoaded", function() {
   const display = document.getElementById("greeting-display");
 
   function showNextGreeting() {
-    const item = greetings[current];
-    display.innerHTML = `<strong>${item.hello} (${item.language}, ${item.country})</strong>`;
-    current = (current + 1) % greetings.length;
+    // Fade out
+    display.style.opacity = 0;
+    setTimeout(() => {
+      const item = greetings[current];
+      display.innerHTML = `<strong>${item.hello} (${item.language}, ${item.country})</strong>`;
+      display.style.opacity = 1; // Fade in
+      current = (current + 1) % greetings.length;
+    }, 250); // half of the transition duration
   }
 
   showNextGreeting();
-  setInterval(showNextGreeting, 1500); // faster: 1.5 seconds
+  setInterval(showNextGreeting, 1000); // 1 second interval
 });
 </script>
-
 
 <br>
 
