@@ -17,28 +17,23 @@ document.addEventListener("DOMContentLoaded", function() {
     return;
   }
 
-  // Embedded greetings data
-  var greetingsData = [
-    { "hello": "Hello!" },
-    { "hello": "Hi there!" },
-    { "hello": "Greetings!" },
-    { "hello": "Welcome!" }
-  ];
+  // Fetch greetings from assets/hello.json
+  fetch('/assets/hello.json')
+    .then(response => response.json())
+    .then(data => {
+      // Extract 'hello' field from each JSON object
+      var greetings = data.map(entry => entry.hello);
+      var currentIndex = 0;
 
-  // Extract greetings into an array
-  var greetings = greetingsData.map(entry => entry.hello);
-  var currentIndex = 0;
+      function rotateGreeting() {
+        display.innerText = greetings[currentIndex];
+        currentIndex = (currentIndex + 1) % greetings.length;
+      }
 
-  function rotateGreeting() {
-    display.innerText = greetings[currentIndex];
-    currentIndex = (currentIndex + 1) % greetings.length;
-  }
-
-  // Show the first greeting immediately
-  rotateGreeting();
-
-  // Rotate every second
-  setInterval(rotateGreeting, 1000);
+      rotateGreeting(); // show first greeting immediately
+      setInterval(rotateGreeting, 1000); // rotate every second
+    })
+    .catch(err => console.error("Error loading JSON:", err));
 });
 </script>
 
