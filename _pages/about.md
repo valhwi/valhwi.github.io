@@ -31,11 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <!-- YouTube Video -->
 <div style="display: flex; justify-content: center;">
-  <iframe width="560" height="315" 
-          src="https://www.youtube.com/embed/wccRif2DaGs?si=3A9m4vGoqTt7PypL" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allowfullscreen>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wccRif2DaGs?si=3A9m4vGoqTt7PypL" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
   </iframe>
 </div>
 
