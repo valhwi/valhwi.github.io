@@ -37,8 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<br>
-
 <!-- YouTube Video -->
 <div style="display: flex; justify-content: center;">
   <iframe width="560" height="315" 
