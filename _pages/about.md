@@ -11,10 +11,10 @@ redirect_from:
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Convert Jekyll data to a JS array safely
+    // Safely convert JSON data to JS array
     var greetings = {{ site.data.hello | map: "hello" | jsonify }};
 
-    console.log("Greetings array:", greetings); // check if array loaded
+    console.log("Greetings array:", greetings); // check in browser console
 
     if (!greetings || greetings.length === 0) return;
 
@@ -26,8 +26,8 @@ redirect_from:
       current = (current + 1) % greetings.length;
     }
 
-    rotateGreeting(); // first greeting immediately
-    setInterval(rotateGreeting, 1000);
+    rotateGreeting(); // show first greeting immediately
+    setInterval(rotateGreeting, 1000); // rotate every 2 seconds
   });
 </script>
 
