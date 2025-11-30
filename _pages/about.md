@@ -11,32 +11,34 @@ redirect_from:
 
 <!-- Rotating Greetings -->
 <div style="text-align:center;">
-  <div id="greeting-display" style="font-size:24px; margin-top:20px;">
+  <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold;">
     Welcome!
   </div>
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const greetings = [
-      {% for item in site.data.hello %}
-        { language: "{{ Welcome.English }}", country: "{{ Welcome.United Kingdom }}", hello: "{{ item.hello }}" }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-    ];
+document.addEventListener("DOMContentLoaded", function() {
+  // Build greetings array properly
+  const greetings = [
+    {% for item in site.data.hello %}
+      { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
 
-    let current = 0;
-    const display = document.getElementById("greeting-display");
+  let current = 0;
+  const display = document.getElementById("greeting-display");
 
-    function showNextGreeting() {
-      const item = greetings[current];
-      display.innerHTML = `${item.hello} (${item.language}, ${item.country})`;
-      current = (current + 1) % greetings.length;
-    }
+  function showNextGreeting() {
+    const item = greetings[current];
+    display.innerHTML = `<strong>${item.hello} (${item.language}, ${item.country})</strong>`;
+    current = (current + 1) % greetings.length;
+  }
 
-    showNextGreeting();
-    setInterval(showNextGreeting, 3000);
-  });
+  showNextGreeting();
+  setInterval(showNextGreeting, 1000);
+});
 </script>
+
 
 <br>
 
