@@ -5,36 +5,29 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<!-- Rotating Greetings -->
-<div style="text-align:center;">
-  <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold;">
-    Welcome!
-  </div>
+<div id="greeting-display" style="text-align:center; font-size:24px; margin-top:20px; font-weight:bold;">
+  Welcome!
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Load greetings from Jekyll data
-  const greetings = [
+  // Simplest array of greetings using Jekyll loop
+  var greetings = [
     {% for item in site.data.hello %}
-      { hello: "{{ item.hello | escape }}", language: "{{ item.language | escape }}", country: "{{ item.country | escape }}" }{% unless forloop.last %},{% endunless %}
+      "{{ item.hello }}" {% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
-  let current = 0;
-  const display = document.getElementById("greeting-display");
+  var current = 0;
+  var display = document.getElementById("greeting-display");
 
-  function showNextGreeting() {
-    const item = greetings[current];
-    display.innerHTML = `<strong>${item.hello} (${item.language}, ${item.country})</strong>`;
+  function rotateGreeting() {
+    display.innerText = greetings[current];
     current = (current + 1) % greetings.length;
   }
 
-  showNextGreeting();             // show first greeting immediately
-  setInterval(showNextGreeting, 1000);  // rotate every 1 second
-});
+  setInterval(rotateGreeting, 1000); // rotate every 1 second
+  rotateGreeting(); // show the first greeting immediately
 </script>
-
 
 <br>
 
