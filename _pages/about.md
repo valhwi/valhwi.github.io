@@ -11,16 +11,16 @@ redirect_from:
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // Array of greetings from your JSON
+  const display = document.getElementById("greeting-display");
+
+  // Get greetings from Jekyll data
   const greetings = [
     {% for item in site.data.hello %}
       "{{ item.hello }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
-  const display = document.getElementById("greeting-display");
   let i = 0;
-
   setInterval(() => {
     display.textContent = greetings[i];
     i = (i + 1) % greetings.length; // loop back to start
