@@ -5,14 +5,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div id="greeting-display">Welcome!</div>
+<!-- Rotating Greetings -->
+<div style="text-align:center;">
+  <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold;">
+    Welcome!
+  </div>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  // Load greetings from Jekyll data
   const greetings = [
-    { language: "English", country: "UK", hello: "Welcome!" },
-    { language: "Spanish", country: "Spain", hello: "Hola" },
-    { language: "French", country: "France", hello: "Bonjour" }
+    {% for item in site.data.hello %}
+      { hello: "{{ item.hello | escape }}", language: "{{ item.language | escape }}", country: "{{ item.country | escape }}" }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
   ];
 
   let current = 0;
@@ -24,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
     current = (current + 1) % greetings.length;
   }
 
-  showNextGreeting();
-  setInterval(showNextGreeting, 1000);
+  showNextGreeting();             // show first greeting immediately
+  setInterval(showNextGreeting, 1000);  // rotate every 1 second
 });
 </script>
 
