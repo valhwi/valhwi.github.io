@@ -5,31 +5,28 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div id="greeting-display" style="text-align:center; font-size:24px; margin-top:20px; font-weight:bold;">
-  Welcome!
-</div>
+<p style="text-align:center; font-size:24px; font-weight:bold;">
+  Hello: <span id="greeting-display">Welcome!</span>
+</p>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Safely convert JSON data to JS array
-    var greetings = {{ site.data.hello | map: "hello" | jsonify }};
+document.addEventListener("DOMContentLoaded", function() {
+  // Hardcoded array for testing
+  var greetings = ["Welcome!", "¡Bienvenido!", "Bienvenue!", "Willkommen!", "Benvenuto!"];
 
-    console.log("Greetings array:", greetings); // check in browser console
+  var current = 0;
+  var display = document.getElementById("greeting-display");
 
-    if (!greetings || greetings.length === 0) return;
+  function rotateGreeting() {
+    display.innerText = greetings[current];
+    current = (current + 1) % greetings.length;
+  }
 
-    var current = 0;
-    var display = document.getElementById("greeting-display");
-
-    function rotateGreeting() {
-      display.innerText = greetings[current];
-      current = (current + 1) % greetings.length;
-    }
-
-    rotateGreeting(); // show first greeting immediately
-    setInterval(rotateGreeting, 1000); // rotate every 2 seconds
-  });
+  rotateGreeting(); // show first greeting immediately
+  setInterval(rotateGreeting, 1000); // rotate every 2 seconds
+});
 </script>
+
 
 
 <br>
