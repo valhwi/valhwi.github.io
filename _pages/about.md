@@ -6,26 +6,35 @@ redirect_from:
   - /about.html
 ---
 
-<div id="greeting-display" style="text-align:center; font-size:24px; font-weight:bold;">Welcome!</div>
+<div style="text-align:center;">
+  <div id="greeting-display" style="font-size:24px; font-weight:bold; margin-top:20px;">
+    Welcome!
+  </div>
+</div>
 
 <script>
-fetch('/hello.json') // make sure hello.json is in your website root
-  .then(response => response.json())
-  .then(greetings => {
-    let current = 0;
-    const display = document.getElementById('greeting-display');
-    function showNextGreeting() {
-      const item = greetings[current];
-      display.textContent = `${item.hello} (${item.language}, ${item.country})`;
-      current = (current + 1) % greetings.length;
-    }
-    showNextGreeting();
-    setInterval(showNextGreeting, 1000);
-  })
-  .catch(console.error);
+document.addEventListener("DOMContentLoaded", function() {
+  // Build greetings array from Jekyll data
+  const greetings = [
+    {% for item in site.data.hello %}
+      { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  let current = 0;
+  const display = document.getElementById("greeting-display");
+
+  function showNextGreeting() {
+    const item = greetings[current];
+    display.innerHTML = `<strong>${item.hello} (${item.language}, ${item.country})</strong>`;
+    current = (current + 1) % greetings.length;
+  }
+
+  // Start rotation
+  showNextGreeting();              // show first greeting immediately
+  setInterval(showNextGreeting, 1000);  // rotate every 1 second
+});
 </script>
-
-
 
 <br>
 
