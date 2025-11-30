@@ -5,45 +5,27 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-<div style="text-align:center; margin-top:50px;">
-  <span id="greeting-display" style="display:inline-block; font-size:36px; font-weight:bold; transition: transform 1s;">
-    Loading...
-  </span>
-</div>
+<p style="text-align:center; font-size:40px; font-weight:bold;">
+  <span id="greeting-display">Hello!</span>
+</p>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Load greetings from Jekyll _data folder
-    const greetings = {{ site.data.hello | jsonify }};
-    
-    // Function to pick a random greeting
-    function randomGreeting() {
-      const g = greetings[Math.floor(Math.random() * greetings.length)];
-      return g.hello;
-    }
+document.addEventListener("DOMContentLoaded", function() {
+  // Array of greetings from your JSON
+  const greetings = [
+    {% for item in site.data.hello %}
+      "{{ item.hello }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
 
-    const greetingDisplay = document.getElementById("greeting-display");
+  const display = document.getElementById("greeting-display");
+  let i = 0;
 
-    // Function to update greeting and apply rotation/movement
-    function updateGreeting() {
-      const text = randomGreeting();
-      greetingDisplay.textContent = text;
-
-      // Random rotation between -30deg and 30deg
-      const rotation = Math.random() * 60 - 30;
-      // Random horizontal movement between -50px and 50px
-      const translateX = Math.random() * 100 - 50;
-      // Random vertical movement between -20px and 20px
-      const translateY = Math.random() * 40 - 20;
-
-      greetingDisplay.style.transform = `translate(${translateX}px, ${translateY}px) rotate(${rotation}deg)`;
-    }
-
-    // Update greeting every 2 seconds
-    updateGreeting(); // Initial call
-    setInterval(updateGreeting, 2000);
-  });
+  setInterval(() => {
+    display.textContent = greetings[i];
+    i = (i + 1) % greetings.length; // loop back to start
+  }, 1000); // change every 1 second
+});
 </script>
 
 
