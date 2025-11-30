@@ -1,10 +1,12 @@
 ---
 permalink: /
+title: Valerie
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
 <!-- Rotating Greetings -->
 <div style="text-align:center;">
   <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold;">
@@ -14,10 +16,14 @@ redirect_from:
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // Build greetings array properly
+  // Build greetings array safely
   const greetings = [
     {% for item in site.data.hello %}
-      { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% unless forloop.last %},{% endunless %}
+      {
+        language: "{{ item.language | escape }}",
+        country: "{{ item.country | escape }}",
+        hello: "{{ item.hello | escape }}"
+      }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
@@ -31,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   showNextGreeting();
-  setInterval(showNextGreeting, 1000);
+  setInterval(showNextGreeting, 1500); // faster: 1.5 seconds
 });
 </script>
 
