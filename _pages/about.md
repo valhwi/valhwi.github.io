@@ -7,18 +7,33 @@ redirect_from:
   - /about.html
 ---
 ## <br>
+
 <div style="text-align:center;">
   <div id="greeting-display" style="text-align:center; font-size:24px; margin-top:20px;">
-  Welcome!
-  <ul style="list-style:none; padding:0;">
+    Welcome!
+  </div>
+</div>
+
+<script>
+  // Convert Jekyll JSON to JS array
+  const greetings = [
     {% for item in site.data.hello %}
-      <li>
-        <strong>{{ item.language }} ({{ item.country }}):</strong> {{ item.hello }}
-      </li>
+      { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% if forloop.last == false %},{% endif %}
     {% endfor %}
-  </ul>
-</div>
-</div>
+  ];
+
+  let current = 0;
+  const display = document.getElementById("greeting-display");
+
+  function showNextGreeting() {
+    const item = greetings[current];
+    display.innerHTML = `${item.hello} (${item.language}, ${item.country})`;
+    current = (current + 1) % greetings.length; // loop back to start
+  }
+
+  showNextGreeting();              // show first greeting immediately
+  setInterval(showNextGreeting, 3000); // rotate every 3 seconds
+</script>
 
 <br>
 <div style="display: flex; justify-content: center;">
