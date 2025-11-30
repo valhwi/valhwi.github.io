@@ -1,4 +1,3 @@
----
 permalink: /
 title: "Valerie"
 author_profile: true
@@ -6,8 +5,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## <br>
-
 <div style="text-align:center;">
   <div id="greeting-display" style="text-align:center; font-size:24px; margin-top:20px;">
     Welcome!
@@ -15,24 +12,25 @@ redirect_from:
 </div>
 
 <script>
-  // Convert Jekyll JSON to JS array
-  const greetings = [
-    {% for item in site.data.hello %}
-      { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ];
+  document.addEventListener("DOMContentLoaded", function() {
+    const greetings = [
+      {% for item in site.data.hello %}
+        { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ];
 
-  let current = 0;
-  const display = document.getElementById("greeting-display");
+    let current = 0;
+    const display = document.getElementById("greeting-display");
 
-  function showNextGreeting() {
-    const item = greetings[current];
-    display.innerHTML = `${item.hello} (${item.language}, ${item.country})`;
-    current = (current + 1) % greetings.length; // loop back to start
-  }
+    function showNextGreeting() {
+      const item = greetings[current];
+      display.innerHTML = `${item.hello} (${item.language}, ${item.country})`;
+      current = (current + 1) % greetings.length;
+    }
 
-  showNextGreeting();              // show first greeting immediately
-  setInterval(showNextGreeting, 3000); // rotate every 3 seconds
+    showNextGreeting();
+    setInterval(showNextGreeting, 3000);
+  });
 </script>
 
 <br>
