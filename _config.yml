@@ -25,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Valerie"
   pronouns         : "she/her"  
-  bio              : "Not of the world, just in it."
-  location         : "Somewhere"
+  bio              : <b>"in not of"
+  location         : "Anywhere"
   employer         : "Lab"
   uri              : # URL
   email            : "mailto:valerie.gamit@gmail.com" 
