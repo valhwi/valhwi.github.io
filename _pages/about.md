@@ -10,24 +10,28 @@ redirect_from:
 </div>
 
 <script>
-  // Simplest array of greetings using Jekyll loop
-  var greetings = [
-    {% for item in site.data.hello %}
-      "{{ item.hello }}" {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
+  document.addEventListener("DOMContentLoaded", function() {
+    var greetings = [
+      {% for item in site.data.hello %}
+        "{{ item.hello }}" {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
 
-  var current = 0;
-  var display = document.getElementById("greeting-display");
+    if (greetings.length === 0) return; // safety check
 
-  function rotateGreeting() {
-    display.innerText = greetings[current];
-    current = (current + 1) % greetings.length;
-  }
+    var current = 0;
+    var display = document.getElementById("greeting-display");
 
-  setInterval(rotateGreeting, 1000); // rotate every 1 second
-  rotateGreeting(); // show the first greeting immediately
+    function rotateGreeting() {
+      display.innerText = greetings[current];
+      current = (current + 1) % greetings.length;
+    }
+
+    rotateGreeting(); // first greeting
+    setInterval(rotateGreeting, 1000);
+  });
 </script>
+
 
 <br>
 
