@@ -1,14 +1,10 @@
 ---
 permalink: /
-title: "Valerie"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-## <br>
-
 <!-- Rotating Greetings -->
 <div style="text-align:center;">
   <div id="greeting-display" style="font-size:24px; margin-top:20px; font-weight:bold;">
