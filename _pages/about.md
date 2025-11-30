@@ -12,17 +12,16 @@ redirect_from:
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var display = document.getElementById("greeting-display");
-
   if (!display) {
     console.error("No element found with id 'greeting-display'");
     return;
   }
 
-  // Fetch greetings from JSON
-  fetch('hello.json')
+  // Fetch greetings from JSON in assets folder
+  fetch('/assets/hello.json')
     .then(response => response.json())
     .then(data => {
-      // Map the 'hello' field of each entry
+      console.log('Fetched data:', data); // Debug: check data
       var greetings = data.map(entry => entry.hello);
       var current = 0;
 
