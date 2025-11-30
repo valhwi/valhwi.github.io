@@ -20,7 +20,7 @@ redirect_from:
   document.addEventListener("DOMContentLoaded", function() {
     const greetings = [
       {% for item in site.data.hello %}
-        { language: "{{ item.language }}", country: "{{ item.country }}", hello: "{{ item.hello }}" }{% if forloop.last == false %},{% endif %}
+        { language: "{{ Welcome.English }}", country: "{{ Welcome.United Kingdom }}", hello: "{{ item.hello }}" }{% if forloop.last == false %},{% endif %}
       {% endfor %}
     ];
 
@@ -34,7 +34,7 @@ redirect_from:
     }
 
     showNextGreeting();
-    setInterval(showNextGreeting, 3000); // rotate every 3 seconds
+    setInterval(showNextGreeting, 3000);
   });
 </script>
 
