@@ -28,18 +28,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-
-<!-- YouTube Video -->
 <div style="display: flex; justify-content: center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wccRif2DaGs?si=3A9m4vGoqTt7PypL" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br>
 
-<!-- Clocks -->
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <iframe src="https://free.timeanddate.com/clock/i9stvqo9/n16/fcfff/tc000/ftb/pa8/tt0/th1/ta1/tb4" 
-          frameborder="0" 
+<iframe src="https://free.timeanddate.com/clock/ia6i0sag/n259/fn2/fs16/ftb/bas2/bat0/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="335" height="38"></iframe>
           width="231" 
           height="50">
   </iframe>
