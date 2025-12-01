@@ -13,18 +13,18 @@ redirect_from:
 document.addEventListener("DOMContentLoaded", function() {
   const display = document.getElementById("greeting-display");
 
-  // Get greetings from Jekyll data
   const greetings = [
     {% for item in site.data.hello %}
       "{{ item.hello }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
-  let i = 0;
+  let index = 0;
+
   setInterval(() => {
-    display.textContent = greetings[i];
-    i = (i + 1) % greetings.length; // loop back to start
-  }, 1000); // change every 1 second
+    display.textContent = greetings[index];
+    index = (index + 1) % greetings.length;
+  }, 1000);
 });
 </script>
 
