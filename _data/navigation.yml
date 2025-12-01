@@ -9,7 +9,7 @@
 
 main:
   - title: "About"
-    url: /about/
+    url: /about.html
 
   - title: "Archive"
     url: /archive/
