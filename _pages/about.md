@@ -1,7 +1,8 @@
-layout: single
+---
 title: "About"
 permalink: /about/
 author_profile: true
+
 ---
 
 <div style="text-align:center;">
