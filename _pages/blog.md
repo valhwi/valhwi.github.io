@@ -4,7 +4,7 @@ permalink: /blog/
 author_profile: false
 ---
  <main>
-    <img src="photos/musashi.jpg" alt="Musashi image" class="blog-image" width="500" height="300" />
+    <img src="images/musashi.jpg" width="500" height="300" />
     <div class="folder">
       <h2>tbd</h2>
       <ul>
