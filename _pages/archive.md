@@ -14,3 +14,26 @@ author_profile: false
     {% endfor %}
   </div>
 </main>
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery-item img {
+  width: 200px; /* adjust size as needed */
+  height: 200px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  border-radius: 10px; /* rounded corners */
+}
+
+.gallery-item img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05); /* optional zoom effect on hover */
+}
+</style>
