@@ -13,4 +13,7 @@ main:
     
   - title: "Archive"
     url: /archive/
+
+  - title: "Blog"
+    url: /blog/
     
