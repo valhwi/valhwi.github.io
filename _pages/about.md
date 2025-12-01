@@ -4,7 +4,8 @@ permalink: /about/
 author_profile: true
 
 ---
-# <div style="text-align:center;">{{ page.title }}</div>
+
+<div style="text-align:center;">{{ page.title }}</div>
 
 <div style="text-align:center;">
 
