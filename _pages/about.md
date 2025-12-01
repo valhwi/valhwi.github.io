@@ -29,8 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <div style="display: flex; justify-content: center; margin-top: 10px;">
-    <img src="{{ base_path }}/images/main.jpg" 
-         style="width: 500px; height: 500px; object-fit: cover; border-radius: 10px;">
+    <img src="{{ base_path }}/images/main.jpg">
 </div>
 <br>
 <div style="display: flex; justify-content: center; gap: 10px;">
