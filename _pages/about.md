@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<div style="display: flex; justify-content: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/wccRif2DaGs?si=3A9m4vGoqTt7PypL" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-</div>
+<div style="display: flex; justify-content: center; margin-top: 10px;">
+    <img src="{{ base_path }}/images/main.jpg" 
+         style="width: 300px; height: 300px; object-fit: cover; border-radius: 10px;">
 
 <br>
 <div style="display: flex; justify-content: center; gap: 10px;">
