@@ -9,12 +9,8 @@
 
 main:
   - title: "About"
-    url: /publications/
+    url: /about/
 
-  - title: "Blog"
-    url: /year-archive/
+  - title: "Archive"
+    url: /archive/
     
-  - title: "Gallery"
-    url: /portfolio/
-        
-
