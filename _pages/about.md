@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(() => {
     display.textContent = greetings[index];
     index = (index + 1) % greetings.length;
-  }, 1000);
+  }, 500);
 });
 </script>
 
