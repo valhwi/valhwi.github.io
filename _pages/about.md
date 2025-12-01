@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <div style="display: flex; justify-content: center; margin-top: 10px;">
     <img src="{{ base_path }}/images/main.jpg"
-       style="width: 450px; height: 4500px; object-fit: cover; border-radius: 20px;">
+       style="width: 450px; height: 450px; object-fit: cover; border-radius: 20px;">
 </div>
 <br>
 <div style="display: flex; justify-content: center; gap: 10px;">
