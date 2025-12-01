@@ -1,9 +1,10 @@
 ---
-title: "About"
+Title: About 
 permalink: /about/
-author_profile: false
+author_profile: true
 
 ---
+# <div style="text-align:center;">{{ page.title }}</div>
 
 <div style="text-align:center;">
 
