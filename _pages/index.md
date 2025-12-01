@@ -1,9 +1,7 @@
 ---
 permalink: /
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+
 ---
 <p style="text-align:center; font-size:40px; font-weight:bold;">
   <span id="greeting-display">Hello!</span>
