@@ -1,7 +1,7 @@
 [
   {
     "language": "English",
-    "hello": "Welcome!",
+    "hello": "Hello!",
     "tag": "en",
     "country": "United Kingdom"
   },
@@ -96,12 +96,6 @@
     "country": "Spain"
   },
   {
-    "language": "Cebuano",
-    "hello": "Hello",
-    "tag": "ceb",
-    "country": "Philippines"
-  },
-  {
     "language": "Cherokee",
     "hello": "ᎣᏏᏲ",
     "tag": "chr",
@@ -118,12 +112,6 @@
     "hello": "您好",
     "tag": "zh-Hans",
     "country": "China"
-  },
-  {
-    "language": "Chinese (Traditional)",
-    "hello": "您好",
-    "tag": "zh-Hant",
-    "country": "Taiwan"
   },
   {
     "language": "Corsican",
@@ -150,22 +138,10 @@
     "country": "Denmark"
   },
   {
-    "language": "Dutch",
-    "hello": "Hallo",
-    "tag": "nl",
-    "country": "Netherlands"
-  },
-  {
     "language": "Dzongkha",
     "hello": "Kuzu zangpo la",
     "tag": "dz",
     "country": "Bhutan"
-  },
-  {
-    "language": "English",
-    "hello": "Hello",
-    "tag": "en",
-    "country": "United Kingdom"
   },
   {
     "language": "Esperanto",
@@ -178,12 +154,6 @@
     "hello": "Tere",
     "tag": "et",
     "country": "Estonia"
-  },
-  {
-    "language": "Faroese",
-    "hello": "Hallo",
-    "tag": "fo",
-    "country": "Faroe Islands"
   },
   {
     "language": "Fijian",
@@ -208,12 +178,6 @@
     "hello": "Bonjour",
     "tag": "fr",
     "country": "France"
-  },
-  {
-    "language": "Frisian",
-    "hello": "Hello",
-    "tag": "fy",
-    "country": "Netherlands"
   },
   {
     "language": "Galician",
@@ -348,12 +312,6 @@
     "country": "Japan"
   },
   {
-    "language": "Javanese",
-    "hello": "Hello",
-    "tag": "jv",
-    "country": "Indonesia"
-  },
-  {
     "language": "Jèrriais",
     "hello": "Salut",
     "tag": "nrf",
@@ -382,13 +340,7 @@
     "hello": "안녕하세요.",
     "tag": "ko",
     "country": "South Korea"
-  },
-  {
-    "language": "Kurdish (Kurmanji)",
-    "hello": "Hello",
-    "tag": "ku",
-    "country": "Turkey"
-  },
+  }
   {
     "language": "Kyrgyz",
     "hello": "салам",
@@ -432,28 +384,10 @@
     "country": "North Macedonia"
   },
   {
-    "language": "Malagasy",
-    "hello": "Hello",
-    "tag": "mg",
-    "country": "Madagascar"
-  },
-  {
-    "language": "Malay",
-    "hello": "Hello",
-    "tag": "ms",
-    "country": "Malaysia"
-  },
-  {
     "language": "Malayalam",
     "hello": "ഹലോ",
     "tag": "ml",
     "country": "India"
-  },
-  {
-    "language": "Maltese",
-    "hello": "Hello",
-    "tag": "mt",
-    "country": "Malta"
   },
   {
     "language": "Maori",
@@ -496,18 +430,6 @@
     "hello": "नमस्ते",
     "tag": "ne",
     "country": "Nepal"
-  },
-  {
-    "language": "Norwegian",
-    "hello": "Hallo",
-    "tag": "no",
-    "country": "Norway"
-  },
-  {
-    "language": "Pashto",
-    "hello": "سلام",
-    "tag": "ps",
-    "country": "Afghanistan"
   },
   {
     "language": "Persian",
@@ -558,28 +480,10 @@
     "country": "Samoa"
   },
   {
-    "language": "Scots Gaelic",
-    "hello": "Hello",
-    "tag": "sco",
-    "country": "Scotland"
-  },
-  {
     "language": "Serbian",
     "hello": "Здраво",
     "tag": "sr",
     "country": "Serbia"
-  },
-  {
-    "language": "Sesotho",
-    "hello": "Hello",
-    "tag": "st",
-    "country": "Lesotho"
-  },
-  {
-    "language": "Shona",
-    "hello": "Hello",
-    "tag": "sn",
-    "country": "Zimbabwe"
   },
   {
     "language": "Sindhi",
@@ -606,22 +510,10 @@
     "country": "Slovenia"
   },
   {
-    "language": "Somali",
-    "hello": "Hello",
-    "tag": "so",
-    "country": "Somalia"
-  },
-  {
     "language": "Spanish",
     "hello": "Hola",
     "tag": "es",
     "country": "Spain"
-  },
-  {
-    "language": "Sundanese",
-    "hello": "halo",
-    "tag": "su",
-    "country": "Indonesia"
   },
   {
     "language": "Swahili",
