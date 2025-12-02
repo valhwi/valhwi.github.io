@@ -15,17 +15,14 @@ author_profile: false
        style="border-radius:20px; object-fit:cover;" />
 
   <h2>Valerie</h2>
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <th style="text-align:left; padding:8px; border-bottom: 1px solid #ddd;">Category</th>
-    <th style="text-align:left; padding:8px; border-bottom: 1px solid #ddd;">Details</th>
-  </tr>
-
+<table>
   <tr>
     <td><b>Personal:</b></td>
-    <td>22, she/her
-    Aquarius (Feb 14) · INTJ-A · Enneagram 4w5 · Blood Type: O+
-    Medical Laboratory Science / Medical Technology</td>
+    <td>
+      22, she/her<br>
+      Aquarius (Feb 14) · INTJ-A · Enneagram 4w5 · Blood Type: O+<br>
+      Medical Laboratory Science / Medical Technology
+    </td>
   </tr>
 
   <tr>
@@ -37,20 +34,20 @@ author_profile: false
   </tr>
 
   <tr>
-    <td><b>Interests & Hobbies</b></td>
+    <td><b>Interests & Hobbies:</b></td>
     <td>
-      music, reading, writing, photography & film,<br>
-      chess, editing (graphic, video, and text), language learning,<br>
-      solitude, nature, road trips & walking trips, cooking
+      Music, reading, writing, photography & film<br>
+      Chess, editing (graphic, video, and text), language learning<br>
+      Solitude, nature, road trips & walking trips, cooking
     </td>
   </tr>
 
   <tr>
-    <td><b>Favorites</b></td>
+    <td><b>Favorites:</b></td>
     <td>
-      Books: The Stoner, The Book Thief, Letters from a Stoic, Atomic Habits (more on <a href="https://www.goodreads.com/kiminara">Goodreads</a><br>
-      Movies & Shows: 3 Idiots, Breaking Bad, Initial D (more on <a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk">IMDb</a>
-      Music: Just check <a [href="https://music.youtube.com/channel/UC1zZzZEdM-Y44Ds83ZAOZRw?si=T2TJhpnHYi33dmQJ">YouTube Music</a>
+      <b>Books:</b> The Stoner, The Book Thief, Letters from a Stoic, Atomic Habits (<a href="https://www.goodreads.com/kiminara" target="_blank">Goodreads</a>)<br>
+      <b>Movies & Shows:</b> 3 Idiots, Breaking Bad, Initial D (<a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk" target="_blank">IMDb</a>)<br>
+      <b>Music:</b> Check <a href="https://music.youtube.com/channel/UC1zZzZEdM-Y44Ds83ZAOZRw?si=T2TJhpnHYi33dmQJ" target="_blank">YouTube Music</a> :p
     </td>
   </tr>
 </table>
