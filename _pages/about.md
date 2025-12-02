@@ -28,7 +28,7 @@ author_profile: false
   <tr>
     <td><b>Languages:</b></td>
     <td>
-      Filipino, English, Ilocano, Hiligaynon<br>
+      English, Filipino Ilocano, Hiligaynon<br>
       Learning: Spanish (Beginner), German (Beginner)
     </td>
   </tr>
