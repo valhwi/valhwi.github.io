@@ -17,14 +17,25 @@ author_profile: false
   <h2>Valerie</h2>
   <p>
     22, she/her <br>
-    Aquarius · INTJ-A · O+ 
+    Aquarius (Feb 14) · INTJ-A · 4w5 · O+ <br>
+    Medical Laboratory Science / Medical Technology
   </p>
 
-  <p><b>I enjoy:</b><br>
-    music, reading, writing, photography & film,<br>
-    watching, chess, coding,<br>
-    editing (graphic, video, and text), language learning,<br>
-    solitude, nature, road & walk trips, cooking
+  <p><b>Languages:</b><br>
+Filipino, English, Ilocano, Hiligaynon
+    Learning: Spanish, German
   </p>
+
+<b>Interests & Hobbies:</b><br>
+Music (mostly bands), reading (e.g., *The Stoner*), writing, photography & film,<br>
+  Watching shows/movies, chess, coding,<br>
+  Editing (graphic, video, and text), language learning,<br>
+  Solitude, nature, road & walking trips, cooking
+
+  <b>Favorites & Fun Things:</b><br>
+  Favorite dessert: Cookies & Cream<br>
+  Favorite sport: Badminton<br>
+  Current obsession: Personal quotes, sunsets, and journaling<br>
+  Comfort activity: Listening to music while reading or walking
 
 </div>
