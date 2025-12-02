@@ -14,6 +14,16 @@ author_profile: false
        height="400"
        style="border-radius:20px; object-fit:cover;" />
 
+  <style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    text-align: justify; /* Justify text inside cells */
+  }
+
   <h2>Valerie</h2>
 <table>
   <tr>
