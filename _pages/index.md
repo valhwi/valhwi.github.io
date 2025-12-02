@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <br>
 <div style="text-align: center;">
   <iframe src="https://free.timeanddate.com/clock/ia6k1lz0/n259/fn2/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="338" height="42"></iframe>
-  <br>
   <iframe src="https://free.timeanddate.com/clock/ia6k1gdm/n145/fn2/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="351" height="42"></iframe>
 </div>
 
