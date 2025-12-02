@@ -44,7 +44,7 @@ author_profile: false
     <td>Personal:</td>
     <td>
       22, she/her<br>
-      Aquarius (Feb 14) · INTJ-A · Enneagram 4w5 · Blood Type: O+<br>
+      Aquarius · INTJ-A · 4w5 · O+<br>
       Medical Laboratory Science / Medical Technology
     </td>
   </tr>
@@ -53,7 +53,7 @@ author_profile: false
     <td>Languages:</td>
     <td>
       English, Filipino, Ilocano, Hiligaynon<br>
-      Learning: Spanish (Beginner), German (Beginner)
+      Learning: Spanish, German
     </td>
   </tr>
 
@@ -61,8 +61,8 @@ author_profile: false
     <td>Interests & Hobbies:</td>
     <td>
       Music, reading, writing, photography & film<br>
-      Chess, editing (graphic, video, and text), language learning<br>
-      Solitude, nature, road trips & walking trips, cooking
+      chess, editing (graphic, video, and text), language learning<br>
+      solitude, nature, road trips & walking trips, cooking
     </td>
   </tr>
 
