@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <img src="{{ base_path }}/images/main.jpg" width="500" height="400">>
 </div>
 <br>
-<div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
+<div style="display: flex; flex-direction: column; align-items: center;">
   <iframe src="https://free.timeanddate.com/clock/ia6k1lz0/n259/fn2/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="338" height="42" allowtransparency="true"></iframe>
   <iframe src="https://free.timeanddate.com/clock/ia6k1gdm/n145/fn2/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="351" height="42" allowtransparency="true"></iframe>
 </div>
