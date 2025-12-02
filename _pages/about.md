@@ -60,8 +60,8 @@ author_profile: false
   <tr>
     <td>Interests & Hobbies:</td>
     <td>
-      Music, reading, writing, photography & film<br>
-      chess, editing (graphic, video, and text), language learning<br>
+      Music, reading, writing, photography & film,<br>
+      chess, editing (graphic, video, and text), language learning,<br>
       solitude, nature, road trips & walking trips, cooking
     </td>
   </tr>
