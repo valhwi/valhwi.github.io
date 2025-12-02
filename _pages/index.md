@@ -31,5 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 <br>
 <div style="display: flex; justify-content: center; gap: 10px;">
-<iframe src="https://free.timeanddate.com/clock/ia6i0sag/n259/fn2/fs16/ftb/bas2/bat0/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="335" height="38"></iframe>
+<iframe src="https://free.timeanddate.com/clock/ia6k1lz0/n259/fn2/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="338" height="42" allowtransparency="true"></iframe>
+<iframe src="https://free.timeanddate.com/clock/ia6k1gdm/n145/fn2/fs16/tct/pct/ftb/bas2/bat1/bacfff/pa8/tt0/tw0/th1/ta1" frameborder="0" width="351" height="42" allowtransparency="true"></iframe>
+
 </div>
