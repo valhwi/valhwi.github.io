@@ -18,9 +18,6 @@ author_profile: false
   table {
     width: 100%;
     border-collapse: collapse;
-  }
-
-  td {
     text-align: justify; /* Justify text inside cells */
   }
 
