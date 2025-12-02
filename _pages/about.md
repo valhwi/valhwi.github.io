@@ -17,7 +17,7 @@ author_profile: false
        height="400"
        style="border-radius:20px; object-fit:cover;" />
 </div>
-
+<br>
 <style>
   table {
     width: 100%;
@@ -75,6 +75,3 @@ author_profile: false
     </td>
   </tr>
 </table>
-
-
-</div>
