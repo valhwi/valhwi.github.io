@@ -5,26 +5,43 @@ author_profile: false
 
 ---
 
-<div style="text-align:center;">{{ page.title }}</div>
+<div style="text-align:center;">
+  {{ page.title }}
+</div>
+
+<h2 style="text-align:center;">Valerie</h2>
 
 <div style="text-align:center;">
-
   <img src="{{ base_path }}/images/initialdbw.jpg"
        width="400"
        height="400"
        style="border-radius:20px; object-fit:cover;" />
+</div>
 
-  <style>
+<style>
   table {
     width: 100%;
     border-collapse: collapse;
     text-align: justify; /* Justify text inside cells */
   }
 
-  <h2>Valerie</h2>
+  td:first-child {
+    width: 20%;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 8px;
+  }
+
+  td:last-child {
+    width: 80%;
+    vertical-align: top;
+    padding: 8px;
+  }
+</style>
+
 <table>
   <tr>
-    <td><b>Personal:</b></td>
+    <td>Personal:</td>
     <td>
       22, she/her<br>
       Aquarius (Feb 14) · INTJ-A · Enneagram 4w5 · Blood Type: O+<br>
@@ -33,15 +50,15 @@ author_profile: false
   </tr>
 
   <tr>
-    <td><b>Languages:</b></td>
+    <td>Languages:</td>
     <td>
-      English, Filipino Ilocano, Hiligaynon<br>
+      English, Filipino, Ilocano, Hiligaynon<br>
       Learning: Spanish (Beginner), German (Beginner)
     </td>
   </tr>
 
   <tr>
-    <td><b>Interests & Hobbies:</b></td>
+    <td>Interests & Hobbies:</td>
     <td>
       Music, reading, writing, photography & film<br>
       Chess, editing (graphic, video, and text), language learning<br>
@@ -50,7 +67,7 @@ author_profile: false
   </tr>
 
   <tr>
-    <td><b>Favorites:</b></td>
+    <td>Favorites:</td>
     <td>
       <b>Books:</b> The Stoner, The Book Thief, Letters from a Stoic, Atomic Habits (<a href="https://www.goodreads.com/kiminara" target="_blank">Goodreads</a>)<br>
       <b>Movies & Shows:</b> 3 Idiots, Breaking Bad, Initial D (<a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk" target="_blank">IMDb</a>)<br>
@@ -58,5 +75,6 @@ author_profile: false
     </td>
   </tr>
 </table>
+
 
 </div>
