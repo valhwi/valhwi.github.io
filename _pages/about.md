@@ -50,14 +50,6 @@ author_profile: false
   </tr>
 
   <tr>
-    <td>Languages:</td>
-    <td>
-      English, Filipino, Ilocano, Hiligaynon<br>
-      Learning: Spanish, German
-    </td>
-  </tr>
-
-  <tr>
     <td>Interests and Hobbies:</td>
     <td>
       <b><a href="https://music.youtube.com/channel/UC1zZzZEdM-Y44Ds83ZAOZRw?si=T2TJhpnHYi33dmQJ" target="_blank">Music</a></b>
@@ -110,6 +102,14 @@ I enjoy digging into topics that interest me, whether literature, science, histo
 <br>
 I love watching sports. My main sport:mental gymnastics XD
 <br>
+
+<b>Other things:</b>
+Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous adventures). Meditation (helps me stay sane XD)
     </td>
+    
+<td>Off the grid:</td>
+<td>
+  I’m mostly offline. Scrolling isn’t my hobby. I’m barely alive on the internet and prefer being off the grid, touching grass, breathing fresh air, and living in the real world.
+</td>
   </tr>
 </table>
