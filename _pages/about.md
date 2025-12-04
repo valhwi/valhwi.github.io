@@ -30,6 +30,7 @@ author_profile: false
     font-weight: bold;
     vertical-align: top;
     padding: 8px;
+    text-align: left;
   }
 
   td:last-child {
@@ -70,7 +71,7 @@ I’ve been writing since childhood. Joined journalism contests from elementary 
 <br>
 <br>
 
-<b>Photography, <a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk" target="_blank">film,</a>watching & editing</b>
+<b>Photography, <a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk" target="_blank">film,</a> watching & editing</b>
 <br>
 I enjoy photography and capturing moments. I watch movies, shows, anime, dramas, and especially documentaries (the main character fr). I use watching as a reward after studying or when I just want to chill.
 I randomly edit photos, videos, and text for fun, similar to photography.
