@@ -121,7 +121,7 @@ Solitude (I function best alone), nature, cooking, and traveling (road trips, lo
 <tr>
 <td>Off the grid:</td>
 <td>
-  I’m mostly offline. Scrolling isn’t my hobby. I’m barely alive on the internet and prefer being off the grid, touching grass, breathing fresh air, and enjoying life unplugged.
+  <b>I’m mostly offline. Scrolling isn’t my hobby. I’m barely alive on the internet and prefer being off the grid, touching grass, breathing fresh air, and enjoying life unplugged.</b>
 </td>
   </tr>
 </table>
