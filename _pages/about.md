@@ -58,20 +58,11 @@ author_profile: false
   </tr>
 
   <tr>
-    <td>Interests & Hobbies:</td>
+    <td>Interests:</td>
     <td>
-      Music, reading, writing, photography & film,<br>
+      <a href="https://music.youtube.com/channel/UC1zZzZEdM-Y44Ds83ZAOZRw?si=T2TJhpnHYi33dmQJ" target="_blank">Music</a>, <a href="https://www.goodreads.com/kiminara" target="_blank">reading</a>, writing, <a href="https://valhwi.github.io/archive/"></a>photography & <a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk" target="_blank">film</a>,<br>
       chess, editing (graphic, video, and text), language learning,<br>
       solitude, nature, road trips & walking trips, cooking
-    </td>
-  </tr>
-
-  <tr>
-    <td>Favorites:</td>
-    <td>
-      <b>Books:</b> The Stoner, The Book Thief, Letters from a Stoic, Atomic Habits (<a href="https://www.goodreads.com/kiminara" target="_blank">Goodreads</a>)<br>
-      <b>Movies & Shows:</b> 3 Idiots, Breaking Bad, Initial D (<a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk" target="_blank">IMDb</a>)<br>
-      <b>Music:</b> Check <a href="https://music.youtube.com/channel/UC1zZzZEdM-Y44Ds83ZAOZRw?si=T2TJhpnHYi33dmQJ" target="_blank">YouTube Music</a> :p
     </td>
   </tr>
 </table>
