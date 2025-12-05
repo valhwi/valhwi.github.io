@@ -114,7 +114,7 @@ I love watching sports. My main sport: mental gymnastics lol.
 <br>
 
 <b>Other things:</b>
-Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous trips).
+Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous trips). <b>CATS!!!</b>
     </td>
     </tr>
 </table>
