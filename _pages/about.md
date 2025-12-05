@@ -55,7 +55,7 @@ author_profile: false
     <td>
       <b><a href="https://music.youtube.com/channel/UC1zZzZEdM-Y44Ds83ZAOZRw?si=T2TJhpnHYi33dmQJ" target="_blank">Music</a></b>
       <br>
-I listen to music a lot and I'm trying to cut back because it lowkey feels like an addiction. Mostly into bands: Queen, The Beatles, U2, Electric Light Orchestra, Bon Jovi, Guns N' Roses, Green Day, Nirvana, Eraserheads, Oasis, Radiohead, Coldplay, Cueshé, The Script, My Chemical Romance, Fall Out Boy, RADWIMPS, Arctic Monkeys, The 1975, Linkin Park, Paramore, Panic! at the Disco, Kodaline, ONE OK ROCK, Tame Impala, SEKAI NO OWARI, Twenty One Pilots, 5 Seconds of Summer, IV of Spades, DAY6, Ben&Ben, The RIdleys, Måneskin, The Rose, LUCY, Xdinary Heroes, CNEMA, Lola Amor, Cup of Joe, and many more I vibe with.
+I listen to music a lot and I'm trying to cut back because it lowkey feels like an addiction. Mostly into bands: Queen, The Beatles, U2, Electric Light Orchestra, Bon Jovi, Guns N' Roses, Green Day, Nirvana, Eraserheads, Oasis, Radiohead, Coldplay, Cueshé, The Script, My Chemical Romance, Fall Out Boy, RADWIMPS, Arctic Monkeys, The 1975, Linkin Park, Paramore, Panic! at the Disco, Kodaline, ONE OK ROCK, Tame Impala, SEKAI NO OWARI, Twenty One Pilots, 5 Seconds of Summer, IV of Spades, DAY6, Ben&Ben, The Ridleys, Måneskin, The Rose, LUCY, Xdinary Heroes, CNEMA, Lola Amor, Cup of Joe, and many more I vibe with.
   <br>
   <br>
       
