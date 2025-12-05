@@ -1,3 +1,41 @@
+{% include base_path %}
+
+<div style="text-align:center;">
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <button><div class="navicon"></div></button>
+
+          <ul class="visible-links">
+            <li class="masthead__menu-item masthead__menu-item--lg persist">
+              <a href="{{ base_path }}/">{{ site.title }}</a>
+            </li>
+
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+
+            <li id="theme-toggle" class="masthead__menu-item persist tail">
+              <a role="button" aria-labelledby="theme-icon">
+                <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,3 +56,19 @@
 
 </body>
 </html>
+
+<p style="text-align:center; font-size:0.9em; color:gray;">
+  Last updated: 2025 (on stasis)
+</p>
+{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+<div class="page__footer-follow">
+    {% if site.author.github %}
+      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.atom_feed.hide != true %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endif %}
+
+  </ul>
+</div>
+{% endif %}
