@@ -114,7 +114,7 @@ I love watching sports. My main sport: mental gymnastics lol.
 <br>
 
 <b>More:</b>
-Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous trips). <b>CATS!!! PUSA!!! KURING!!! GATO!!! KATZE!!! <h6>¡AY MI GATITO! ¡MIAU MIAU!</h6></b> 
+Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous trips). <b>CATS!!!</b> 
     </td>
     </tr>
 </table>
