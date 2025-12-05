@@ -97,7 +97,7 @@ I enjoy typing stuff and magically creating something (strictly recreational, do
 
 <b>Geography and Cultures</b>
 <br>
-I like learning about places, people, and cultures. Basically trying to build a new version of United Nations in my brain.
+I like learning about places, people, and cultures. Basically building a mini United Nations in my head.
 <br>
 <br>
 
