@@ -67,7 +67,7 @@ I read anything that sparks my interst (except academic books lol). Some of my f
 
 <b>Writing</b>
 <br>
-I’ve been writing since childhood. Joined journalism contests from elementary to high school (former managing editor and sports writer of our school publication). I journal, write down my thoughts, feelings, and whatever’s happening in my life. Writing comes easier than talking, and during the pandemic I journaled a lot (and still do). Journaling is my default mode.
+Writing is my default mode. Joined journalism contests from elementary to high school (former managing editor and sports writer of our school publication). I journal, write down my thoughts, feelings, and whatever’s happening in my life. Writing comes easier than talking, and during the pandemic I journaled a lot (and still do). 
 <br>
 <br>
 
