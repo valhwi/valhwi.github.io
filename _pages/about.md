@@ -45,7 +45,7 @@ author_profile: false
     <td>Personal:</td>
     <td>
       22, she/her<br>
-      &#x2600; Aquarius  &#x263D; Gemini  &#x2B06; Leo · INTJ-A · 4w5 · O+<br>
+      &#x2600; Aquarius  &#x263D; Gemini  &#x2B06; Leo · INTJ-A · 4w5 · O+ <br>
       Medical Laboratory Science / Medical Technology
     </td>
   </tr>
