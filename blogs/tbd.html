@@ -1,27 +1,17 @@
-
-<section style="text-align:center; margin-top:2rem;">
-  <img src="{{ '/blogs/think.jpg' | relative_url }}" width="500" height="300" class="center">
-  <p>journal and drafts are shaking</p>
-</section>
-
-<p style="text-align:center; font-size:0.9em; color:gray;">
-  Last updated: 2025 (on stasis)
-</p>
-
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul>
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i> GitHub</a></li>
-    {% endif %}
-
-    {% if site.atom_feed.hide != true %}
-      <li>
-        <a href="{{ site.atom_feed.path | default: base_path | append: '/feed.xml' }}">
-          <i class="fa fa-rss-square"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}
-        </a>
-      </li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="photos/favicon.ico" type="image/x-icon"> 
+  <link rel="icon" href="photos/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="/css/style.css"> 
+    <title>TBD</title> 
+  </head> 
+  <body> 
+    <section style="text-align:center;"> 
+      <img src="/blogs/think.jpg" width="500" height="300" class="center"> 
+      <p>journal and drafts are shaking</p> 
+    </section> 
+  </body> 
+</html>
