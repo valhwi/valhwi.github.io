@@ -55,26 +55,25 @@ author_profile: false
     <td>
       <b><a href="https://music.youtube.com/channel/UC1zZzZEdM-Y44Ds83ZAOZRw?si=T2TJhpnHYi33dmQJ" target="_blank">Music</a></b>
       <br>
-I listen to music a lot and am trying to cut back because it lowkey feels like an addiction. Mostly into bands: Queen, The Beatles, U2, Oasis, My Chemical Romance, Green Day, Linkin Park, Coldplay, The Script, Arctic Monkeys, Måneskin, The 1975, 5 Seconds of Summer, DAY6, The Rose, CNEMA, basically most K-bands, Eraserheads, IV of Spades, Cup of Joe, and Ben&Ben, and many more artists I vibe with. I just love music.
+I listen to music a lot and I'm trying to cut back because it lowkey feels like an addiction. Mostly into bands: Queen, The Beatles, U2, Oasis, My Chemical Romance, Green Day, Linkin Park, Coldplay, The Script, Arctic Monkeys, Måneskin, The 1975, 5 Seconds of Summer, DAY6, The Rose, CNEMA, basically K-bands, Eraserheads, IV of Spades, Cup of Joe, and Ben&Ben, and many more I vibe with. I simply love music.
   <br>
   <br>
       
 <b><a href="https://www.goodreads.com/kiminara" target="_blank">Reading</a></b>
 <br>
-I read anything that sparks my interst (except academic books lol). Some of my favorites are Stoner, The Book Thief, Letters from a Stoic, Atomic Habits, The Kite Runner, Norwegian Wood, Chess Story, White Nights, And Then There Were None, The Travelling Cat Chronicles, Daisy Jones and the Six… and many more.
+I read anything that sparks my interst (except academic books, let's be real). Some favorites: Stoner, The Book Thief, Letters from a Stoic, Atomic Habits, The Kite Runner, Norwegian Wood, Chess Story, White Nights, And Then There Were None, The Travelling Cat Chronicles, Daisy Jones and the Six… and more.
 <br>
 <br>
 
 <b>Writing</b>
 <br>
-Writing is my default mode. Joined journalism contests from elementary to high school (former managing editor and sports writer of our school publication). I journal, write down my thoughts, feelings, and whatever’s happening in my life. Writing comes easier than talking.
+Writing is my natural state. I joined journalism competitions from elementary to high school (former managing editor and sports writer of our school publication). I journal, write down my thoughts, feelings, and whatever’s happening in my life. Writing comes easier than talking.
 <br>
 <br>
 
 <b>Photography, <a href="https://www.imdb.com/list/ls4102488238/?ref_=ext_shr_lnk" target="_blank">film,</a> watching & editing</b>
 <br>
-I enjoy photography and capturing moments. I watch movies, shows, anime, dramas, and especially documentaries (the main character fr). I use watching as a reward after studying or when I just want to chill.
-I randomly edit photos, videos, and text for fun, similar to photography.
+I enjoy photography and capturing moments. I watch movies, shows, anime, dramas, and especially documentaries (the main character fr). Watching is either my reward after a productive day or my intentional downtime. I also edit photos, videos, and text.
 <br>
 <br>
 
@@ -86,13 +85,13 @@ I play chess for leisure and headaches. (Greetings to Praise!)
 
 <b>Language Learning </b>
 <br>
-Growing up in a multilingual country, languages are a big part of my life. Languages I know: Filipino, Ilocano, Hiligaynon, English (+ Taglish). Currently learning Spanish and German. Still confused about why objects have genders tho.
+Growing up in a multilingual country, languages are a big part of my life. Languages I know: Filipino, Ilocano, Hiligaynon, English (+ Taglish). Currently learning Spanish and German. Wdym grammatical gender exist?
 <br>
 <br>
 
 <b>Coding</b>
 <br>
-I enjoy typing stuff and magically creating something (only for fun, no debugging pls).
+I enjoy typing stuff and magically creating something (strictly recreational, don't summon me for debugging pls).
 <br>
 <br>
 
@@ -104,7 +103,7 @@ I like learning about places, people, and cultures. Basically trying to build a 
 
 <b>Research</b>
 <br>
-I enjoy digging into topics that interest me, whether literature, science, history, or random rabbit holes.
+I enjoy digging into topics that interest me, whether literature, science, history, or whatever unexpected rabbit hole I stumble into.
 <br>
 <br>
 
