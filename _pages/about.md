@@ -118,10 +118,4 @@ I love watching sports. My main sport: mental gymnastics lol.
 Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous adventures). Meditation (helps me stay sane XD).
     </td>
     </tr>
-<tr>
-<td>Off the grid:</td>
-<td>
-  <b>I’m mostly offline. I’m barely alive on the internet and prefer being off the grid, touching grass, breathing fresh air, and enjoying life unplugged.</b>
-</td>
-  </tr>
 </table>
