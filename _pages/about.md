@@ -110,7 +110,7 @@ I enjoy digging into topics that interest me, whether literature, science, histo
 
 <b>Sports</b>
 <br>
-I love watching sports. My main sport: mental gymnastics XD
+I love watching sports. My main sport: mental gymnastics lol.
 <br>
 <br>
 
