@@ -85,7 +85,7 @@ I play chess for leisure and headaches. (Greetings to Praise!)
 
 <b>Language Learning </b>
 <br>
-Growing up in a multilingual country, languages are a big part of my life. Languages I know: Filipino, Ilocano, Hiligaynon, English (+ Taglish). Currently learning Spanish and German. Wdym grammatical gender exists? In my language, 'she' and 'he' both translate to the same thing (we’re so gender-neutral, we’re Switzerland-level neutral).
+Growing up in a multilingual country, languages are a big part of my life. Languages I know: Filipino, Ilocano, Hiligaynon, English (+ Taglish). Currently learning more. Wdym grammatical gender exists? In my language, 'she' and 'he' both translate to the same thing (we’re so gender-neutral, Switzerland would approve).
 <br>
 <br>
 
