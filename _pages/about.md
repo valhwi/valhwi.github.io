@@ -97,7 +97,7 @@ I enjoy typing stuff and magically creating something (strictly recreational, do
 
 <b>Geography and Cultures</b>
 <br>
-I like learning about places, people, and cultures. Basically building a mini United Nations in my head.
+I like learning about places, people, and cultures. Basically building a version of United Nations in my head.
 <br>
 <br>
 
@@ -114,7 +114,7 @@ I love watching sports. My main sport: mental gymnastics lol.
 <br>
 
 <b>More:</b>
-Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous trips). <b>CATS!!!</b> 
+Solitude (I function best alone), nature, cooking, and traveling (road trips, long walks, spontaneous trips). <b>CATS!!!</b> Savory and spicy food
     </td>
     </tr>
 </table>
